@@ -1,71 +1,82 @@
 * {
-    font-family: Didot, sans-serif
-  }
+  font-family: Didot, sans-serif;
+}
+body {
+  background-color: rgb(221, 233, 230);
+}
+h1, p {
+  text-align: center;
+  margin:25px;
+  word-wrap: break-word;
+}
+
+h1{
+  margin-top: 55px;
+}
+
+#main {
+  border: 3px solid #a69f9f;
+  background-color: rgb(221, 243, 230);
+  border-radius: 10px;
+}
+
+.divim {
+  display: inline-block;
+  height: 520px;
+  width: 96%;
+  border: 3px solid #a69f9f;
+  background-color: rgb(221, 283, 230);
+  border-radius: 10px;
+  margin: 0px 15px 45px;
+}
+
+.divim img {
+  display:block;
+  max-width: 100%;
+  height: auto;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 10px;
   
-  h1, p {
-    text-align: center;
-    margin:25px;
-    word-wrap: break-word;
-  }
-  
-  h1{
-    margin-top: 55px;
-  }
-  
-  #main {
-    border: 3px solid red;
-    background-color: rgb(221, 223, 230)
-  }
-  
-  .divim {
-    display: inline-block;
-    height: 520px;
-    width: 96%;
-    border: 3px solid blue;
-    margin: 0px 15px 45px;
-  }
-  
-  .divim img {
-    display:block;
-    max-width: 100%;
-    height: auto;
-    margin: 50px auto;
-  }
-  
-  #img-caption {
-    text-align: center;
-    padding: 10px;
-    
-  }
-  
-  #img-caption {
-    display: block;
-  }
-  
-  #tribute-info {
-     text-align: center;
-     border: 3px solid red;
-     max-width: 400px;
-     height: 650px;
-     margin: auto;
-     min-width: 100px;
-  }
-  
-  li {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    margin: 20px auto;
-    text-align: center;
-  }
-  
-  h3 {
-    text-align: center;
-    padding: 10 4px;
-  }
-  
-  .bold {
-    font-weight: bold;
-  }
-  
-  
+}
+
+#img-caption {
+  display: block;
+}
+
+#tribute-info {
+   text-align: center;
+   border: 3px solid #a69f9f;
+   background-color: rgb(221, 283, 230);
+   border-radius: 10px;
+   max-width: 300px;
+   height: 650px;
+   margin: auto;
+   min-width: 100px;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding: 10 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
