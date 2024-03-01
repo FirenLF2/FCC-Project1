@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <header id="header">
+       <nav id="nav-bar">
+        <div class="logo-container">
+           <img 
+             id="header-img" 
+             src="https://www.lifepng.com/wp-content/uploads/2020/12/Clojure-Logo-png-hd.png" 
+             alt="logo"
+             width="60" >
+            </img> 
+            <span class="the-product">Filter Universe</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link" >Features</a></li>
+          <li><a href="#audio" class="nav-link" >Demo</a></li>
+          <li><a href="#for-sale" class="nav-link" >Store</a></li>
+        </ul>
+       </nav> 
+    </header>
+    <section id="email-section">
+      <h2>Beautiful Hand-Made Filters!</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input 
+          id="email" 
+          placeholder="Enter Your Email Address..." 
+          type="email" 
+          name="email"
+        />
+        <input id="submit" type="submit" value="GET STARTED">
+      </form>
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <i class="ri-car-fill ri-4x icon"></i>
+        <div>
+          <h2>Fast Shipping</h2>
+          <p>
+            Rest assured, the shipping for your Air/Oil Filter is characterized by remarkable speed and efficiency, guaranteeing a swift dispatch from our facility to your doorstep, so you can enjoy the benefits of your purchase in no time.
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-book-3-fill ri-4x icon"></i>
+        <div>
+          <h2>Premium Materials</h2>
+          <p>
+            The Air/Oil Filters are crafted with meticulous attention to detail, showcasing exceptional craftsmanship and utilizing high-quality materials, ensuring a durable and reliable product for optimal performance in maintaining the efficiency of your vehicle's engine.
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="feature">
+        <i class="ri-article-line ri-4x icon"></i>
+        <div>
+          <h2>Trustable Source</h2>
+          <p>
+            Our company for filters is highly regarded for its unwavering commitment to trustworthiness and security, providing customers with a dependable and secure platform for all their filtration needs, backed by a reputation built on reliability and integrity.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="audio" >
+      <iframe 
+        id="video"
+        height="400" 
+        src="https://www.youtube.com/embed/rwGwrww9mlc?si=KuU73tFuDjZol6Vt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>        
+      </iframe>
+    </section>
+    <section id="for-sale">
+      <h2>Store</h2>
+      <div class="product-cards">
+        <div class="card">
+          <div class="product-image product1"></div>
+          <div class="inner-card">
+            <div class="author">Filter No.1</div>
+            <h1 class="header">N56-MT Air Filter</h1>
+            <p class="content">Crafted with precision using advanced materials, this filter is designed to enhance air intake, ensuring optimal engine efficiency. Its innovative design not only delivers superior filtration but also contributes to improved fuel efficiency and power output. </p>
+            <div class="flex">
+              <p class="main-price">$72.50</p>
+              <p class="old-price">$100</p>
+            </div>
+            <button class="add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image product2"></div>
+          <div class="inner-card">
+            <div class="author">Filter No.2</div>
+            <h1 class="header">GX-S Oil Filter</h1>
+            <p class="content">The GX-S is designed to efficiently capture and remove impurities, safeguarding your engine against wear and tear. Its advanced features ensure optimal oil flow, promoting longevity and enhancing the overall health of your engine. Used for OIL only, see details online for further information.</p>
+            <div class="flex">
+              <p class="main-price">$24</p>
+              <p class="old-price">$48</p>
+            </div>
+            <button class="add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image product3"></div>
+          <div class="inner-card">
+            <div class="author">Filter No.3</div>
+            <h1 class="header">Gen X Filter</h1>
+            <p class="content">Crafted for maximum reliability and longevity, the Gen X Filter excels in maintaining the health of your engine. Its advanced design promotes efficient oil circulation and superior air intake, contributing to improved fuel efficiency and overall engine efficiency. Can be used for both Oil and/or Air Filtering</p>
+            <div class="flex">
+              <p class="main-price">$50</p>
+              <p class="old-price">$60</p>
+            </div>
+            <button class="add">Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <footer id="footer">
+      <a class="copyright" href="https://github.com/FirenLF2" target="_blank">Copyright 2024, FirenLF2 - Filter Universe</a>
+    </footer>
+</body>
+</html>
